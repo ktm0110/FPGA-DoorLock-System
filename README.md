@@ -1,4 +1,5 @@
-# FPGA Smart Door Lock System (Verilog)
+# FPGA DoorLock System
+A digital door lock system implemented on FPGA using Verilog HDL.
 
 ## 프로젝트 개요 (Project Overview)
 
