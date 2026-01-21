@@ -9,7 +9,7 @@ A digital door lock system implemented on FPGA using Verilog HDL.
 ---
 
 [![Video Label](http://img.youtube.com/vi/BCqgMWNaQ3E/0.jpg)](https://youtu.be/BCqgMWNaQ3E)
-
+click to watch video
 
 ## 주요 기능 (Key Features)
 
