@@ -3,8 +3,8 @@ A digital door lock system implemented on FPGA using Verilog HDL.
 
 ## 프로젝트 개요 (Project Overview)
 
-이 프로젝트는 **FPGA(Verilog HDL)**를 활용하여 구현한 **보안 강화형 스마트 도어락 시스템**입니다.
-단순한 비밀번호 입력 기능을 넘어, 기계식 버튼의 노이즈 제거(Debouncing), 오토 락(Auto-lock), 그리고 3회 오류 시 시스템을 마비시키는 **Freeze 보안 기능**까지 포함된 완성형 임베디드 시스템 설계 프로젝트입니다.
+이 프로젝트는 **FPGA(Verilog HDL)**를 활용하여 구현한 **보안 강화형 스마트 도어락 시스템**이다.
+단순한 비밀번호 입력 기능을 넘어, 기계식 버튼의 노이즈 제거(Debouncing), 오토 락(Auto-lock), 그리고 3회 오류 시 시스템을 마비시키는 **Freeze 보안 기능**까지 포함된 완성형 임베디드 시스템 설계 프로젝트이다.
 
 ---
 
@@ -38,9 +38,8 @@ A digital door lock system implemented on FPGA using Verilog HDL.
 
 ## 시스템 구조 (System Architecture)
 
-이 시스템은 최상위 모듈인 `top.v`를 중심으로 제어부(Control)와 구동부(Drive)로 나뉩니다.
+이 시스템은 최상위 모듈인 `top.v`를 중심으로 제어부(Control)와 구동부(Drive)로 나뉜다.
 
-> **[여기에 아까 보여주신 계층 구조(Hierarchy) 스크린샷을 넣어주세요]**
 > `![System Hierarchy](./images/hierarchy.png)`
 
 ### 모듈 설명 (Module Description)
@@ -58,7 +57,7 @@ A digital door lock system implemented on FPGA using Verilog HDL.
 
 ## 하드웨어 연결 (Pin Constraint)
 
-*사용하는 FPGA 보드에 따라 `top.ucf` 파일의 핀 번호는 다를 수 있습니다.*
+*사용하는 FPGA 보드에 따라 `top.ucf` 파일의 핀 번호는 다를 수 있다.*
 
 * **CLK:** 12MHz (Internal PLL -> 24MHz)
 * **KEY Input:** 4x4 Matrix Keypad (or Tact Switch)
